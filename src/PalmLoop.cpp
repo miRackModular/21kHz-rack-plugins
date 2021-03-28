@@ -227,7 +227,7 @@ struct PalmLoopWidget : ModuleWidget {
 // author name for categorization per plugin, module slug (should never
 // change), human-readable module name, and any number of tags
 // (found in `include/tags.hpp`) separated by commas.
-Model *modelPalmLoop = Model::create<PalmLoop, PalmLoopWidget>("21kHz", "kHzPalmLoop", "Palm Loop — basic VCO — 8hp", OSCILLATOR_TAG);
+Model *modelPalmLoop = Model::create<PalmLoop, PalmLoopWidget>("21kHz", "kHzPalmLoop", "Palm Loop", OSCILLATOR_TAG);
 
 // history
 // 0.6.0

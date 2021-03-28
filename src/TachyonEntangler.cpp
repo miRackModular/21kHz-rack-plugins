@@ -514,7 +514,7 @@ struct TachyonEntanglerWidget : ModuleWidget {
 // author name for categorization per plugin, module slug (should never
 // change), human-readable module name, and any number of tags
 // (found in `include/tags.hpp`) separated by commas.
-Model *modelTachyonEntangler = Model::create<TachyonEntangler, TachyonEntanglerWidget>("21kHz", "kHzTachyonEntangler", "Tachyon Entangler — chaotic sync VCO — 20hp", OSCILLATOR_TAG);
+Model *modelTachyonEntangler = Model::create<TachyonEntangler, TachyonEntanglerWidget>("21kHz", "kHzTachyonEntangler", "Tachyon Entangler", OSCILLATOR_TAG);
 
 // 0.6.1
 //  create
